@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="809dacc6-3a02-4dde-b4b4-10f5e760e85d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/com/imooc/utils/IMoocJSONResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/com/imooc/utils/MD5Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/Code.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/DayCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/Id.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/IdWorker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/InvalidSystemClock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/RandomCodeStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/Sid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/WorkerIdStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/strategy/FileLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/utils/HttpReq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/utils/IPv4Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/utils/Ip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/utils/Props.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/utils/Serializes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/src/main/java/org/n3r/idworker/utils/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-mini-api/src/main/java/com/imooc/Swagger2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-mini-api/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-service/src/main/java/com/imooc/service/Impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-service/src/main/java/com/imooc/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myimooc-video/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/../myimooc-video/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myimooc-video/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../myimooc-video/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-mini-api/src/main/java/com/imooc/ImoocVideosDevMiniApiApplication.java" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-mini-api/src/main/java/com/imooc/ImoocVideosDevMiniApiApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-mini-api/src/main/resources/mapper/CommentsMapper.xml" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-mini-api/src/main/resources/mapper/CommentsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-pojo/src/main/java/com/imooc/pojo/Users.java" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-pojo/src/main/java/com/imooc/pojo/Users.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-service/src/main/java/com/imooc/ImoocVideosDevServiceApplication.java" afterPath="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-service/src/main/java/com/imooc/ImoocVideosDevServiceApplication.java" />
-    </list>
+    <list default="true" id="809dacc6-3a02-4dde-b4b4-10f5e760e85d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/target/" />
     <ignored path="$PROJECT_DIR$/../myimooc-video/imooc-videos-common/target/" />
     <ignored path="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-common/target/" />
@@ -1425,7 +1392,7 @@
       <workItem from="1533800415556" duration="13516000" />
       <workItem from="1533815389770" duration="2303000" />
       <workItem from="1533817762461" duration="4018000" />
-      <workItem from="1533822141898" duration="851000" />
+      <workItem from="1533822141898" duration="962000" />
     </task>
     <task id="LOCAL-00001" summary="完成分层聚合项目初始化，以及使用mybatis-generator生成相应文件，使用maven install成功安装项目。">
       <created>1533809798126</created>
@@ -1434,7 +1401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533809798126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="用户注册逻辑开发;&#10;使用swagger2构建短视频后端api接口文档">
+      <created>1533823066023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533823066023</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1443,7 +1417,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26377000" />
+    <option name="totallyTimeSpent" value="26488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1467,7 +1441,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09836066" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43114755" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13114753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1490,7 +1464,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成分层聚合项目初始化，以及使用mybatis-generator生成相应文件，使用maven install成功安装项目。" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成分层聚合项目初始化，以及使用mybatis-generator生成相应文件，使用maven install成功安装项目。" />
+    <MESSAGE value="用户注册逻辑开发;&#10;使用swagger2构建短视频后端api接口文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户注册逻辑开发;&#10;使用swagger2构建短视频后端api接口文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1548,6 +1523,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-350">
           <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1601,6 +1577,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1608,6 +1585,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="e#1301#1302#0" expanded="false" />
+            <element signature="e#1326#1327#0" expanded="false" />
+            <element signature="e#1395#1396#0" expanded="false" />
+            <element signature="e#1423#1424#0" expanded="false" />
+            <element signature="e#1524#1525#0" expanded="false" />
+            <element signature="e#1555#1556#0" expanded="false" />
+            <element signature="e#1666#1667#0" expanded="false" />
+            <element signature="e#1706#1707#0" expanded="false" />
+            <element signature="e#1805#1806#0" expanded="false" />
+            <element signature="e#1836#1837#0" expanded="false" />
+            <element signature="e#1945#1946#0" expanded="false" />
+            <element signature="e#1985#1986#0" expanded="false" />
+            <element signature="e#2111#2112#0" expanded="false" />
+            <element signature="e#2143#2144#0" expanded="false" />
+            <element signature="e#2279#2280#0" expanded="false" />
+            <element signature="e#2321#2322#0" expanded="false" />
+            <element signature="e#2420#2421#0" expanded="false" />
+            <element signature="e#2451#2452#0" expanded="false" />
+            <element signature="e#2560#2561#0" expanded="false" />
+            <element signature="e#2600#2601#0" expanded="false" />
+            <element signature="e#2713#2714#0" expanded="false" />
+            <element signature="e#2746#2747#0" expanded="false" />
+            <element signature="e#2870#2871#0" expanded="false" />
+            <element signature="e#2914#2915#0" expanded="false" />
+            <element signature="e#3033#3034#0" expanded="false" />
+            <element signature="e#3068#3069#0" expanded="false" />
+            <element signature="e#3200#3201#0" expanded="false" />
+            <element signature="e#3248#3249#0" expanded="false" />
+            <element signature="e#3392#3393#0" expanded="false" />
+            <element signature="e#3432#3433#0" expanded="false" />
+            <element signature="e#3593#3594#0" expanded="false" />
+            <element signature="e#3651#3652#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1650,6 +1661,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1657,6 +1671,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1664,6 +1679,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1685,6 +1703,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1699,6 +1718,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1713,6 +1733,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1720,6 +1741,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1727,6 +1749,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1786,6 +1809,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
