@@ -65,9 +65,10 @@ public class UserServiceImpl implements UserService {
 	@Transactional(propagation = Propagation.SUPPORTS)
 	@Override
 	public Users queryUserForLogin(String username, String password) {
-		
+		//mybatis的逆向工程中会生成实例及实例对应的example，example用于添加条件
 		Example userExample = new Example(Users.class);
 		Criteria criteria = userExample.createCriteria();
+		//Criteria中的方法是定义SQL 语句where后的查询条件。
 		criteria.andEqualTo("username", username);
 		criteria.andEqualTo("password", password);
 		Users result = userMapper.selectOneByExample(userExample);
