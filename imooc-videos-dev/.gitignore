@@ -1,6 +1,6 @@
 *.class
 
-#package file
+#package
 *.war
 *.ear
 
