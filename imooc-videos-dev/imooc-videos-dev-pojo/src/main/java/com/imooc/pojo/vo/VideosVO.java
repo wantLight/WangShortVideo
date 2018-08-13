@@ -3,6 +3,7 @@ package com.imooc.pojo.vo;
 import java.util.Date;
 import javax.persistence.*;
 
+//视频首页的组合类
 public class VideosVO {
     private String id;
     private String userId;

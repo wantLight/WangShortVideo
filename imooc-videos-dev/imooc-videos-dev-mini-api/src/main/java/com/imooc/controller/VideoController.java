@@ -9,6 +9,7 @@ import com.imooc.service.VideoService;
 import com.imooc.utils.FetchVideoCover;
 import com.imooc.utils.IMoocJSONResult;
 import com.imooc.utils.MergeVideoMp3;
+import com.imooc.utils.PagedResult;
 import io.swagger.annotations.*;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -39,7 +40,7 @@ public class VideoController extends BasicController{
     @Autowired
     private VideoService videoService;
 
-    private static final String FFMPEG_EXE = "D:\\ffmpeg\\bin\\ffmpeg.exe";
+
 
 
     @PostMapping(value = "/upload",headers = "content-type=multipart/form-data")
@@ -63,7 +64,7 @@ public class VideoController extends BasicController{
         }
 
         // 文件保存的命名空间
-		String FILE_SPACE = "D:/imooc_videos_dev";
+		//String FILE_SPACE = "D:/imooc_videos_dev";
         // 保存到数据库中的相对路径
         String uploadPathDB = "/" + userId + "/video";
         String coverPathDB = "/" + userId + "/video";
@@ -218,5 +219,23 @@ public class VideoController extends BasicController{
         videoService.updateVideo(videoId, uploadPathDB);
 
         return IMoocJSONResult.ok();
+    }
+
+    @ApiOperation(value="上传封面", notes="上传封面的接口")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="userId", value="用户id", required=true,
+                    dataType="String", paramType="form"),
+            @ApiImplicitParam(name="videoId", value="视频主键id", required=true,
+                    dataType="String", paramType="form")
+    })
+
+    @PostMapping(value="/showAll")
+    public IMoocJSONResult showAll(Integer page) throws Exception {
+
+        if (page == null){
+            page = 1;
+        }
+        PagedResult result = videoService.getAllVideos(page, PAGE_SIZE);
+        return IMoocJSONResult.ok(result);
     }
 }
