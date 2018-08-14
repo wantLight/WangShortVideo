@@ -1,6 +1,8 @@
 package com.imooc.controller;
 
 import com.imooc.pojo.Users;
+import com.imooc.pojo.UsersReport;
+import com.imooc.pojo.vo.PublisherVideo;
 import com.imooc.pojo.vo.UsersVO;
 import com.imooc.service.UserService;
 import com.imooc.utils.IMoocJSONResult;
@@ -102,6 +104,62 @@ public class UserController extends BasicController{
         //快速，便捷！
         BeanUtils.copyProperties(userInfo,usersVO);
         return IMoocJSONResult.ok(usersVO);
+    }
+
+    @PostMapping("/queryPublisher")
+    public IMoocJSONResult queryPublisher(String loginUserId, String videoId,
+                                          String publishUserId) throws Exception {
+
+        if (StringUtils.isBlank(publishUserId)) {
+            return IMoocJSONResult.errorMsg("");
+        }
+
+        // 1. 查询视频发布者的信息
+        Users userInfo = userService.queryUserInfo(publishUserId);
+        UsersVO publisher = new UsersVO();
+        BeanUtils.copyProperties(userInfo, publisher);
+
+        // 2. 查询当前登录者和视频的点赞关系
+        boolean userLikeVideo = userService.isUserLikeVideo(loginUserId, videoId);
+
+        PublisherVideo bean = new PublisherVideo();
+        bean.setPublisher(publisher);
+        bean.setUserLikeVideo(userLikeVideo);
+
+        return IMoocJSONResult.ok(bean);
+    }
+
+    @PostMapping("/beyourfans")
+    public IMoocJSONResult beyourfans(String userId, String fanId) throws Exception {
+
+        if (StringUtils.isBlank(userId) || StringUtils.isBlank(fanId)) {
+            return IMoocJSONResult.errorMsg("");
+        }
+
+        userService.saveUserFanRelation(userId, fanId);
+
+        return IMoocJSONResult.ok("关注成功...");
+    }
+
+    @PostMapping("/dontbeyourfans")
+    public IMoocJSONResult dontbeyourfans(String userId, String fanId) throws Exception {
+
+        if (StringUtils.isBlank(userId) || StringUtils.isBlank(fanId)) {
+            return IMoocJSONResult.errorMsg("");
+        }
+
+        userService.deleteUserFanRelation(userId, fanId);
+
+        return IMoocJSONResult.ok("取消关注成功...");
+    }
+
+    @PostMapping("/reportUser")
+    public IMoocJSONResult reportUser(@RequestBody UsersReport usersReport) throws Exception {
+
+        // 保存举报信息
+        userService.reportUser(usersReport);
+
+        return IMoocJSONResult.errorMsg("举报成功...有你平台变得更美好...");
     }
 
 

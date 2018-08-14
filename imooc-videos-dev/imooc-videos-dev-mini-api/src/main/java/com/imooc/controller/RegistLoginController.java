@@ -84,7 +84,7 @@ public class RegistLoginController extends BasicController{
         if (userResult != null) {
             userResult.setPassword("");
             UsersVO userVO = setUserRedisToken(userResult);
-            return IMoocJSONResult.ok(userResult);
+            return IMoocJSONResult.ok(userVO);
         } else {
             return IMoocJSONResult.errorMsg("用户名或密码不正确, 请重试...");
         }
