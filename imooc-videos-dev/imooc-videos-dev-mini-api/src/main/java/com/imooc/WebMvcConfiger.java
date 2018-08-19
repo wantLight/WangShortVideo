@@ -20,7 +20,13 @@ public class WebMvcConfiger extends WebMvcConfigurerAdapter{
                 .addResourceLocations("classpath:/META-INF/resources/")
                 .addResourceLocations("file:D:/imooc_videos_dev/");
     }
-    //自定义拦截器
+    //初始化zk
+    @Bean(initMethod = "init")
+    public ZKCuratorClient zkCuratorClient() {
+        return new ZKCuratorClient();
+    }
+
+    //自定义拦截器初始化
     @Bean
     public MiniInterceptor miniInterceptor() {
         return new MiniInterceptor();

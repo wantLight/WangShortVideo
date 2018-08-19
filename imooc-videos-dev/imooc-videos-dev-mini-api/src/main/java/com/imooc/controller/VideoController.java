@@ -25,6 +25,7 @@ import java.util.Date;
 import java.util.UUID;
 
 /**
+ * @Description: 敲什么代码，出去浪！
  * Created by xyzzg on 2018/8/12.
  */
 @RestController
@@ -331,4 +332,17 @@ public class VideoController extends BasicController{
 
         return IMoocJSONResult.ok(list);
     }
+
+
+
+
+
+
+    /**
+     * TODO private static final Object you;
+     *
+     * FIXME NullPointerException
+     * @Description: 敲什么代码，出去浪!
+     * Created by xyzzg on 2018/8/17.
+     */
 }

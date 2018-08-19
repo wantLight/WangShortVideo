@@ -7,6 +7,7 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
+//区分自定义mapper与自动生成mapper区别
 public interface VideosMapperCustom extends MyMapper<Videos> {
 
     /**
