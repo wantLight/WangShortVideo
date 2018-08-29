@@ -5,6 +5,8 @@
     <artifactId>imooc-videos-dev</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+
+    <packaging>war</packaging>
   <artifactId>imooc-videos-dev-mini-api</artifactId>
   <dependencies>
   	<dependency>
@@ -12,5 +14,19 @@
   		<artifactId>imooc-videos-dev-service</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
+
+      <!-- 添加依赖，为了打包成war -->
+      <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>javax.servlet-api</artifactId>
+          <scope>provided</scope>
+      </dependency>
+
+      <!--<dependency>-->
+          <!--<groupId>org.springframework.boot</groupId>-->
+          <!--<artifactId>spring-boot-starter-tomcat</artifactId>-->
+          <!--<scope>provided</scope>-->
+      <!--</dependency>-->
+
   </dependencies>
 </project>

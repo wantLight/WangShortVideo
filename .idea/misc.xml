@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/imooc-videos-dev" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/pom.xml" />
-        <option value="$PROJECT_DIR$/../myimooc-video/imooc-videos-common/pom.xml" />
-        <option value="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-mapper/pom.xml" />
-        <option value="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../myimooc-video/imooc-videos-dev/imooc-videos-dev-mini-api/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-videos-dev/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-videos-common/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-videos-dev/imooc-videos-dev-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-videos-dev/imooc-videos-dev-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-videos-dev/imooc-videos-dev-service/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-videos-dev/imooc-videos-dev-mini-api/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/../myimooc-video/out" />
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

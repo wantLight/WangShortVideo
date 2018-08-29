@@ -9,7 +9,7 @@ import org.springframework.context.annotation.PropertySource;
  */
 @Configuration
 @ConfigurationProperties(prefix="com.imooc")
-@PropertySource("classpath:resource.properties")
+@PropertySource("classpath:resource-prod.properties")
 public class ResourceConfig {
 
 	private String zookeeperServer;
