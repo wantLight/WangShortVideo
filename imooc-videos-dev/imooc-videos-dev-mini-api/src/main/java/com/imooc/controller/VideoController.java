@@ -25,8 +25,11 @@ import java.util.Date;
 import java.util.UUID;
 
 /**
- * @Description: 敲什么代码，出去浪！
- * Created by xyzzg on 2018/8/12.
+ * TODO private static final Object you;
+ *
+ * FIXME NullPointerException
+ * @Description: 敲什么代码，出去浪!
+ * Created by xyzzg on 2018/8/17.
  */
 @RestController
 @RequestMapping("/video")
@@ -76,7 +79,7 @@ public class VideoController extends BasicController{
             if (file != null) {
 
                 String fileName = file.getOriginalFilename();
-                // abc.mp4
+                // abc.mp4 根据'.'拆分字符串，拆解需求
                 String arrayFilenameItem[] =  fileName.split("\\.");
                 String fileNamePrefix = "";
                 for (int i = 0 ; i < arrayFilenameItem.length-1 ; i ++) {
@@ -173,7 +176,7 @@ public class VideoController extends BasicController{
         }
 
         // 文件保存的命名空间
-		String FILE_SPACE = "D:/imooc_videos_dev";
+		//String FILE_SPACE = "D:/imooc_videos_dev";
         // 保存到数据库中的相对路径
         String uploadPathDB = "/" + userId + "/video";
 
@@ -338,11 +341,5 @@ public class VideoController extends BasicController{
 
 
 
-    /**
-     * TODO private static final Object you;
-     *
-     * FIXME NullPointerException
-     * @Description: 敲什么代码，出去浪!
-     * Created by xyzzg on 2018/8/17.
-     */
+
 }
