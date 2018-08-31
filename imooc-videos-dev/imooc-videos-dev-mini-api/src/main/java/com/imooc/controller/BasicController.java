@@ -24,7 +24,7 @@ public class BasicController {
 
     //public static final String FILE_SPACE = "D:\\imooc_videos_dev";
 
-    public static final String FILE_SPACE = "/tmp/imooc_videos_dev";
+    public static final String FILE_SPACE = "/home/imooc_videos_dev";
 
     public static final Integer PAGE_SIZE = 5;
 
